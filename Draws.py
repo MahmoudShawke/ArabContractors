@@ -40,50 +40,8 @@ class Draw():
 
 
     def insert(self):
-            # root = Tk()
-            # root.title("2")
-            #
-            # label1 = Label(root,text='Name:').grid(row=0, column=0, padx=5, pady=5)
-            # label2 = Label(root,text='Email:').grid(row=2, column=0, padx=5, pady=5)
-            # label3 = Label(root,text='Password:').grid(row=5, column=0, padx=5, pady=5)
-            # label4 = Label(root,text='Confirm Password:').grid(row=6, column=0, padx=5, pady=5)
-            #
-            # self.email_entry = Entry(root, width=50)
-            # self.name_entry = Entry(root, width=50)
-            # self.password_entry = Entry(root, show="*", width=50)
-            # self.confirmpassword = Entry(root, show="*", width=50)
-            #
-            # self.name_entry.grid(row=0, column=1, columnspan=2, padx=50, pady=20)
-            # self.email_entry.grid(row=2, column=1, columnspan=2, padx=50, pady=20)
-            # self.password_entry.grid(row=5, column=1, columnspan=2, padx=50, pady=30)
-            # self.confirmpassword.grid(row=6, column=1, columnspan=2, padx=50, pady=20)
-            #
-            # emailvalid = (root.register(self.validate), '%P')
-            # emailinvalid = (root.register(self.on_invalid),)
-            # namevalid = (root.register(self.containsNumber), '%P')
-            # nameinvalid = (root.register(self.name_invalid),)
-            # passvalid = (root.register(self.validatepassword), '%P')
-            # passinvalid = (root.register(self.password_invalid),)
-            #
-            # self.email_entry.config(validate='focusout', validatecommand=emailvalid, invalidcommand=emailinvalid)
-            # self.name_entry.config(validate='focusout', validatecommand=namevalid, invalidcommand=nameinvalid)
-            # self.password_entry.config(validate='focusout', validatecommand=passvalid, invalidcommand=passinvalid)
-            #
-            # self.label_error = Label(root, foreground='red')
-            # self.label_error3 = Label(root, foreground='red')
-            # self.label_error4 = Label(root, foreground='red')
-            #
-            # self.label_error.grid(row=1, column=1, sticky=tk.W, padx=15)
-            # self.label_error3.grid(row=3, column=1, sticky=tk.W, padx=15)
-            # self.label_error4.grid(row=7, column=1, sticky=tk.W, padx=5)
-            #
-            # self.send_button = Button(root, text='Insert',command=self.create).grid(row=1, column=5, padx=5)
-            # # self.send_button = Button(root, text='Search'.grid(row=2, column=5, padx=5)
-            # self.send_button = Button(root,text='Clear', command=self.clearform).grid(row=3, column=5, padx=5)
-            #
-            # root.mainloop()
             root = Tk()
-            root.title("update Employee")
+            root.title("Add Employee")
             root.geometry("1530x1080")
             p = Label(root, height='22', width="100", bg='#636466', font=('Helvetica', '20', 'italic'))
             p.pack()
